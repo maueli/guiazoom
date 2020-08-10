@@ -1,0 +1,65 @@
+.mecanicos{
+	background-image: url('../img/tematicas/mecanicos.jpg');
+}
+.fluidosexp{
+	background-image: url('../img/tematicas/fluidosexp.jpg');
+}
+.electroexp{
+	background-image: url('../img/tematicas/electromagneticoexp.jpg');
+}
+.luzexp{
+	background-image: url('../img/tematicas/luzexpp.jpg');
+}
+.ejercicios{
+	margin:0px 0px 0px 0px;
+	color:white;
+}
+
+.ejercicio{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+
+
+
+.ej-operaciones{
+	display:none;
+}
+.ej-afirmaciones{
+	display:none;
+}
+.ej-imagenes{
+	display:none;
+}
+.ej-puzzle{
+	display:none;
+}
+
+.operaciones-boton{
+	width:100%;
+	border:none;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.operaciones-boton:hover{
+	background-color:grey;
+}
+
+
+
+.titulo-puzzle{font-size:30px !important;}
+
+.body-puzzle{padding-left:20px;}
+
+.puzzle ul{
+	float:left;
+	padding-left:0px;
+}
+
+.puzzle ul li{
+	list-style: none;
+	padding-top:20px;
+	padding-left:20px;
+}

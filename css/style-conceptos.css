@@ -1,0 +1,221 @@
+.titulo-tematicas-conceptos{
+	width:100%;
+	background-color: #008080;
+	color:white;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top:30px;
+	ppadding-bottom:30px;
+	height:10vh;
+	position:relative;
+}
+
+.overlay-temas2{
+	background-color:rgba(0,0,0,0.5);
+	height:100%;
+	width:100%;
+}
+
+.columna-conceptos{
+	color:white;
+	font-size:40px;
+	font-weight: bold;
+	bborder-bottom:10px solid black;
+	transition: all 0.3s ease-in;
+	-webkit-transition:  all 0.3s ease-in;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.columna-conceptos:hover{
+	font-size:350%;
+	-webkit-transition:  all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+
+
+.info{
+	width:100%;
+	position:relative;
+	background-color:white;
+	color:black;
+	font-size:40px;
+	text-align:center;
+	display:none;
+	padding-left:100px;
+	padding-right:100px;
+}
+
+.info-titulo{
+	width:100%;
+	padding-top:50px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.info-subtitulo{
+	font-weight: bold;
+}
+
+.info-texto{
+	padding-left:3em;
+	padding-right:3em;
+	padding-bottom:50px;
+	padding-top:50px;
+	font-size:20px;
+		text-align:justify;
+		font-family: "Arial";
+		color:black;
+
+}
+.info-texto a{
+		color:black;
+}
+.info-texto a:hover{
+	color:black;
+	font-weight: bold;
+}
+.info-texto ul{
+	list-style: none;
+}
+
+.info-video{
+	padding-top:50px;
+}
+
+.boton{
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0);
+	padding-top:55px;
+	border:0px;
+	color:white;
+	margin:0px 0px 0px 0px;
+	text-decoration: none;
+}
+
+.boton:focus{
+		border:0px solid green;
+}
+
+.boton:checked{
+	border:1px solid green;
+}
+
+.boton::selection{
+		border:1px solid green;
+}
+
+.boton:active{
+	border:10px solid red;
+}
+
+.imgconcept{
+	width:100vw;
+	height:27.5vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.energia{
+	background-image: url('../img/rayo.jpg');
+}
+.materia{
+	background-image: url('../img/aconcagua.jpeg');
+}
+.particulas{
+	background-image: url('../img/tematicas/particulas2.jpg');
+}
+.calor{
+	background-image: url('../img/tematicas/calor.jpeg');
+}
+.temperatura{
+	background-image: url('../img/tematicas/temperatura.jpg');
+}
+.presion{
+	background-image: url('../img/tematicas/presion.jpg');
+}
+.densidad{
+	background-image: url('../img/tematicas/densidad.jpg');
+}
+.luz{
+	background-image: url('../img/tematicas/luz.jpg');
+}
+.entropia{
+	background-image: url('../img/tematicas/entropia.jpg');
+}
+.escalas{
+	background-image: url('../img/tematicas/escalas.jpg');
+}
+.simetrias{
+	background-image: url('../img/tematicas/simetrias.jpg');
+}
+.espacio{
+	background-image: url('../img/tematicas/espacio.jpg');
+}
+.tiempo{
+	background-image: url('../img/tematicas/tiempo.jpeg');
+}
+.velocidad{
+	background-image: url('../img/tematicas/velocidad.jpg');
+}
+.aceleracion{
+	background-image: url('../img/tematicas/aceleracion.jpg');
+}
+
+
+
+.energia10{
+	width:100vw;
+	height:27.5vh;
+	background-image: url('../img/tematicas/tierra.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 0.3s ease-in;
+	-webkit-transition:  all 0.3s ease-in;
+}
+
+.energia11{
+	width:100vw;
+	height:27.5vh;
+	background-image: url('../img/newton.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 0.3s ease-in;
+	-webkit-transition:  all 0.3s ease-in;
+}
+
+.newton{
+	width:100vw;
+	height:27.5vh;
+	background-image: url('../img/newton.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 0.3s ease-in;
+	-webkit-transition:  all 0.3s ease-in;
+}
+
+.heisenberg{
+	width:100vw;
+	height:27.5vh;
+	background-image: url('../img/heisenberg.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.einstein{
+	width:100vw;
+	height:27.5vh;
+	background-image: url('../img/einstein.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 0.3s ease-in;
+	-webkit-transition:  all 0.3s ease-in;
+}

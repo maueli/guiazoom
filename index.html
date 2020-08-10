@@ -1,0 +1,707 @@
+<!doctype html>
+<html>
+<head>
+  <title>GuiaZoom</title>
+
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="fisica educacion" name="keywords">
+  <meta content=" MotoTour Bariloche is the best way to know Patagonia" name="description">
+
+
+  <!-- Favicons
+  <link href="img/logo0.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+ -->
+
+  <!-- Google Fonts -->
+ 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fondamento:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Calistoga' rel='stylesheet'>
+  	<link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet'>
+
+  <!-- Bootstrap CSS Files -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Libraries CSS Files -->
+
+ <link href="fontawesome/css/all.css" rel="stylesheet">
+ <link href="css/jquery.modal.min.css" rel="stylesheet">
+ <link href="css/animate.min.css" rel="stylesheet">
+
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/jquery-ui.min.css" rel="stylesheet">
+
+	<!-- Owl - Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<link href="css/product.css" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+
+
+</head>
+
+
+<body>
+
+
+  <!-- OVERLAY - MODAL -->
+  <div class="overlay-mapa">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="overlay-mapa2">
+            <img src="img/mapa.jpg" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OVERLAY - MODAL -->
+  <div class="overlay-metodocientifico">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="overlay-mapa2">
+            <img src="img/tematicas/metodocientifico.jpeg" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<nav class="navbar navbar-expand-xl navbar-light fixed-top">
+
+  <a class="navbarr-brand logo" href="#">
+     <img src="img/logo1.png" class="d-inline-block logotop" id="logo" width="100px">
+     <h3 class="titulo wow zoomIn"> GuiaZoom  </h3>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+  data-target="#navbarSupportedContent"
+  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+  id="hamburger">
+    <span class="barritas"> <i class="fas fa-bars"> </i></span>
+  </button>
+
+
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-easing="easeInOutQuad"
+        href="#">Inicio </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-easing="easeInOutQuad"
+        href="#quienesomos">Quienes somos</a>
+      </li>
+      <li class="nav-item">
+        <div class="dropdown">
+          <a class="nav-link" data-easing="easeInOutQuad"
+          href="#introduccion"> Travesía </a>
+          <div class="dropdown-menu ">
+            <a class="dropdown-item wow zoomIn" href="#introduccion"> Circuito </a>
+            <a class="dropdown-item wow zoomIn " href="#lafisica"> Itinerario </a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-easing="easeInOutQuad"
+        href="#contacto"> Contacto </a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+  	<div class="owl-carousel owl-theme owl-loaded" id="carouselheader">
+  		<div class="owl-stage-outer">
+  			<div class="owl-stage">
+  				<div class="owl-item">
+  					<div class="imagen imagen1"> </div>
+  					<div class="overlay text-center">
+  							<div class="container">
+  							    <div class="row">
+  									<div class="col-md-12 ">
+  										<!-- /.main title -->
+  										<h1 class="wow fadeInLeft animated">
+  											 Descubrí Patagonia
+  										</h1>
+
+  										<!-- /.header paragraph -->
+  										<div class="texto-header-2 wow animated fadeInUp">
+  										<p> Excursiones por toda la patagonia
+                         </p>
+  										</div>
+  									</div>
+  								</div>
+  							</div>
+                <div class="abajo animated pulse infinite">
+                    Delice hacia abajo <div class="flechasabajo"> </div>
+                </div>
+  						</div>
+  					</div>
+
+  					<div class="owl-item">
+  					<div class="imagen imagen22"> </div>
+
+  					<div class="overlay text-center">
+  							<div class="container">
+  							    <div class="row">
+  									<div class="col-md-12">
+  										<!-- /.main title -->
+  										<h1 class="wow animated fadeInLeft">
+  											 Viví lo alternativo
+  										</h1>
+
+  										<!-- /.header paragraph -->
+  										<div class="texto-header-2 wow animated fadeInUp">
+  										<p>  Salidas alternativas, fuera de lo común </p>
+  										</div>
+  									</div>
+  								</div>
+  							</div>
+                <div class="abajo animated pulse infinite">
+                    Delice hacia abajo <div class="flechasabajo"> </div>
+                </div>
+  						</div>
+
+  					</div>
+  					<div class="owl-item">
+  					<div class="imagen imagen3"> </div>
+
+  					<div class="overlay text-center">
+  							<div class="container">
+  							    <div class="row">
+  									<div class="col-md-12">
+  								    <!-- /.logo
+  								    	<div class="logo wow fadeInDown">
+  											<a href=""><img src="images/logo/logo.png" alt="logo"></a>
+  								   		</div> -->
+
+  										<!-- /.main title -->
+  										<h1 class="wow fadeInLeft">
+  											Travesía de 8 días
+  										</h1>
+
+  										<!-- /.header paragraph -->
+  										<div class="texto-header-2 wow fadeInUp">
+  										<p> Encontrá más información debajo! </p>
+  										</div>
+  									</div>
+  								</div> <!-- cierra row -->
+  							</div> <!-- cierra container -->
+                <div class="abajo animated pulse infinite">
+                    Delice hacia abajo <div class="flechasabajo"> </div>
+                </div>
+  						</div><!-- cierra overlay -->
+  					</div> <!-- cierra owl-item -->
+
+  				</div> <!-- cierra owlstage -->
+
+
+  			</div> <!-- cierra stage outer -->
+
+
+  		</div> <!-- cierra carousel -->
+
+<!-- QUIENES SOMOS -->
+
+      <section id="quienesomos">
+
+      	<div class="container-fluid boxes">
+
+
+      		<div class="row">
+      			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-3 pb-3 qs1 wow slideInUp">
+      				QUIENES SOMOS
+      			</div>
+      		</div>
+      		<div class="row">
+      			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 wow fadeInDown quienessomos">
+      				GuíaZoom nace en Julio 2020 en una de las pandemias más grandes de la historia de la humanidad, en donde el virus COVID-19 metió a todos los humanos adentro de sus casas, dejando las montañas vacías. GuiaZoom te lleva a la montaña incluso en cuarentena! Salidas alternativas, divertidas y completamente personalizadas.
+      			</div>
+      		</div>
+      	</div>
+
+      </section>
+
+
+
+
+
+
+
+
+
+      <!-- SELECCION DE TEMÁTICAS-->
+
+    <div class="container-fluid" >
+      <div class="titulo-tematicas text-center wow fadeInDown" id="introduccion">
+        Circuito
+      </div>
+	<div class="row">
+		<div class="col-md-6">
+			<div id="mapid" style="height:700px; width:100%;"></div>
+		</div>
+		<div class="col-md-6 info-basica">
+			<div class="text-center ">Recorrido totalmente alternativo de 8 días por cumbres, filos, lagos y arroyos. <span style="font-weight:bold">All inclusive</span></div>
+			<ul>
+				<li>Días: 8</li>
+				<li>Kms: 75kms aprox.</li>
+				<li>Noches: 7 en carpa </li>
+				<li> Transporte: Transfer y lancha </li>
+				<li> Comidas: Sanguches y liofilizadas a elección </li>
+				<li> Equipo: No incluido. Posibilidad de Alquiler </li>
+			</ul>
+		</div>
+	</div>
+	
+
+
+
+        <div class="titulo-tematicas text-center wow fadeInUp" id="lafisica">
+          Itinerario
+        </div>
+
+        <div class="row itinerario text-center"> <!-- ABRE ROW -->
+
+			<div class="col-md-6 itinerario">
+				<ul>
+					<li> <strong>DIA 1</strong> <div class="datos"> Subida al refugio del Cerro Colorado. Cumbre con vista hermosa. 
+						<br>
+						<strong>Distancia</strong>: 7kms. <strong>Desnivel</strong>: 900m</div> </li>
+					<li> <strong>DIA 2</strong> 
+						<div class="datos"> Camino por los filos. Acampe cerca de mallín. <br>
+						<strong>Distancia</strong>: 12kms. 
+						<strong>Desnivel</strong>: +400m y -300m</div>
+					</li>
+					<li> <strong>DIA 3</strong>	
+						<div class="datos">Camino por los filos. Acampe en lagunas Las arañas. <br><strong>Distancia</strong>: 9kms. <strong>Desnivel</strong>: 200m</div>
+					</li>
+					<li> <strong>DIA 4</strong> 
+						<div class="datos">Camino por los filos. Mirador Blest.<br> <strong>Distancia</strong>: 7kms. <strong>Desnivel</strong>: 0m</div></li>
+				</ul>
+			</div>
+			<div class="col-md-6 itinerario">
+				<ul>
+					<li> <strong>DIA 5</strong>  
+						<div class="datos"> Camino por los filos y bajada al valle del arroyo Millaqueo. <br>
+						<strong>Distancia</strong>: 11kms. <strong>Desnivel</strong>: 500m, -900m </div>
+					</li>
+					<li> <strong>DIA 6</strong>  
+						<div class="datos">Caminata por el valle hacia el Lago Huahuanhue. <br> 
+						<strong>Distancia</strong>: 3kms. <strong>Desnivel</strong>: 250m</div>
+					</li>
+					<li> <strong>DIA 7</strong>  
+						<div class="datos"> Descenso por el Valle del arroyo Millaqueo hacia el Lago Nahuel Huapi<br>
+						<strong>Distancia</strong>: 11kms. <strong>Desnivel</strong>: -900m</div> 
+					</li>
+					<li> <strong>DIA 8</strong>  
+						<div class="datos"> Mirador del Millaqueo y vuelta.<br> <strong>Distancia</strong>: 10kms. <strong>Desnivel</strong>: 250m, -250m</div> 
+					</li>
+				</ul>
+			</div>
+			
+			<div class="col-md-12 precio animated pulse infinite">PRECIO p/persona: U$S 800</div>
+
+
+        </div> <!-- CIERRA ROW -->
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sabiasque text-center">
+  <div class="sabiasque-titulo">
+    Imagenes de la travesia
+  </div>
+		<div class="owl-carousel owl-loaded d-sm-block d-md-block d-lg-block sabiasquecarousel">
+			<div class="owl-stage-outer">
+				<div class="owl-stage sabiasque-frases">
+					<div class="owl-item">
+						 <div class="img1 imagen2"> </div>
+					</div>
+					  <div class="owl-item">
+						 <div class="img2 imagen2"> </div>
+					  </div>
+					  <div class="owl-item">
+						 <div class="img3 imagen2">	 </div>
+					  </div>
+					  <div class="owl-item">
+						 <div class="img4 imagen2"> </div>
+					  </div>
+					  <div class="owl-item">
+						 <div class="img5 imagen2"> </div>
+					  </div>
+					  <div class="owl-item">
+						 <div class="img6 imagen2"> </div>
+					  </div>
+					  <div class="owl-item">
+						 <div class="img7 imagen2"> </div>
+					  </div>
+					  <div class="owl-item">
+						 <div class="img8 imagen2"> </div>
+					  </div>
+					  <div class="owl-item">
+						 <div class="img9 imagen2"> </div>
+					  </div>
+					  <div class="owl-item">
+						 <div class="img10 imagen2"> </div>
+					  </div>
+					  <div class="owl-item">
+						 <div class="img11 imagen2"> </div>
+					  </div>
+				</div>
+			</div>
+		</div>
+</div>
+
+
+
+
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contacto" class="contacto1">
+      <div class="container contacto2" >
+
+        <div class="col-12">
+          <h3>CONTACTO</h3>
+          <p>Cualquier duda, pregunta o sugerencia escribanos y le responderemos a la brevedad. </p>
+        </div>
+
+
+
+        <div class="form">
+          <div id="mensajeenviado" class="mensajeenviado">Su mensaje ha sido enviado. Muchas gracias!</div>
+          <div id="mensajeerror" class="mensajeerror"> Ha ocurrido un error. Por favor, verifique la informacion ingresada.</div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+
+              	<div class="form-group col-md-6">
+               		<input type="text" name="name" class="form-control form-control-lg" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
+                	<div class="validation"></div>
+              	</div>
+
+				<div class="form-group col-md-6">
+		            <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Por favor ingrese un email valido" />
+		            <div class="validation"></div>
+              	</div>
+			</div>
+			<div class="form-row">
+              	<div class="form-group col-md-6">
+                	<input type="text" class="form-control form-control-lg" name="telefono" id="telefono" placeholder="Telefono" data-rule="minlen:4" data-msg="Por favor ingrese un telefono valido" />
+                	<div class="validation"></div>
+              	</div>
+            	<div class="form-group col-md-6">
+              		<input type="text" class="form-control form-control-lg" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres" />
+              		<div class="validation"></div>
+            	</div>
+
+			</div>
+            <div class="form-group">
+              <textarea class="form-control form-control-lg" name="message" rows="5" data-rule="required" data-msg="Por favor escriba algo para nosotros" placeholder="Mensaje"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center boton"><button class="botonenviar" type="submit">Enviar</button></div>
+          </form>
+        </div>
+
+      </div>
+
+<div class="container-fluid">
+        <div class="row contacto3">
+
+			<div class="col-md-3"> </div>
+          <div class="col-md-3">
+				 San Carlos de Bariloche, Rio Negro, Patagonia, Argentina
+          </div>
+
+          <div class="col-md-3">
+              <i class="fab fa-whatsapp"></i> +5491141747222
+				<br>
+				<i class="fas fa-envelope"></i>
+              maueli89@gmail.com
+          </div>
+
+        </div>
+</div>
+    </section><!-- #contact -->
+
+
+
+
+<div class="container-fluid bottom">
+Powered by Maueli
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/popper.min.js"></script>
+<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+<script type="text/javascript" src="js/jquery.modal.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.modal.min.js"></script>
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+<script type="text/javascript" src="kmls/dia1.js"></script>
+<script type="text/javascript" src="kmls/dia2.js"></script>
+<script type="text/javascript" src="kmls/dia3.js"></script>
+<script type="text/javascript" src="kmls/dia4.js"></script>
+<script type="text/javascript" src="kmls/dia5.js"></script>
+<script type="text/javascript" src="kmls/dia6.js"></script>
+<script type="text/javascript" src="kmls/dia7.js"></script>
+<script type="text/javascript" src="kmls/dia8.js"></script>
+
+
+
+<script>
+$(document).on("scroll",function(){
+  if ($(document).scrollTop() > 100){
+    $("nav").addClass("shrink"),
+    $(".dropdown-menu").addClass("dropdown-shrink"),
+    $("#hamburger").addClass("navbar-dark"),
+    $("#navbarSupportedContent").css("padding-top","5px").addClass("navbar-collapse2"),
+    $(".abajo").slideUp(500)
+;
+  }
+else {
+  $("nav").removeClass("shrink"),
+  $(".dropdown-menu").removeClass("dropdown-shrink"),
+	$("#hamburger").removeClass("navbar-dark"),
+	$("#navbarSupportedContent").css("padding-top","0px").removeClass("navbar-collapse2"),
+  $(".abajo").slideDown(500)
+  }
+});
+</script>
+
+<script>
+$(document).ready(function() {
+var owl = $('#carouselheader');
+owl.owlCarousel({
+loop: true,
+margin: 0,
+autoplay:true,
+autoplayTimeout:8000,
+autoplayHoverPause:false,
+smartSpeed:1000,
+navRewind: false,
+animateOut: 'fadeOut',
+touchDrag: false,
+mouseDrag: false,
+stagePadding: 0,
+pagination: false,
+dots:true,
+responsive: {
+0: {
+items: 1
+},
+968: {
+items: 1
+},
+1200: {
+items: 1,
+}
+}
+})
+})
+</script>
+
+<script>
+	$(document).ready(function() {
+	var owl = $('.sabiasquecarousel');
+	owl.owlCarousel({
+    loop: true,
+    margin: 0,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:false,
+    smartSpeed:2000,
+    navRewind: false,
+    touchDrag: true,
+    mouseDrag: true,
+    stagePadding: 0,
+    pagination: false,
+    dots:true,
+	responsive: {
+	  0: {
+	    items: 1
+	  },
+	  767: {
+	    items: 3
+	  },
+	  1200: {
+	    items: 5
+	  }
+	}
+	})
+	})
+</script>
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]', {
+		speed: 1800,
+		speedAsDuration: true,
+		offset:70,
+		updateURL: true
+});
+</script>
+
+<script>
+$(document).on('click',function(){
+$('.collapse').collapse('hide');
+})
+</script>
+
+
+<script> new WOW().init(); </script>
+
+<script>
+$(document).ready(function(){
+  $("#overlay-mapa").click(function(){
+    $(".overlay-mapa").show();
+  });
+  $(".overlay-mapa").click(function(){
+    $(this).hide();
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#overlay-metodocientifico").click(function(){
+    $(".overlay-metodocientifico").show();
+  });
+  $(".overlay-metodocientifico").click(function(){
+    $(this).hide();
+  });
+});
+</script>
+
+
+
+<script>
+
+var mymap = L.map('mapid').setView([-40.945811, -71.678743], 12);
+
+var basemaps = {
+    Earth:  L.tileLayer.wms('http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}',{
+      attribution:" GoogleMap-Satelite"
+    }),
+    Topo: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',{
+      attribution:"Opentopomap"
+    })
+};
+
+basemaps.Earth.addTo(mymap);
+var layerscontrol=L.control.layers(basemaps, null ,{collapsed: true, sortLayers:true}).addTo(mymap);
+
+L.geoJson(dia1, {
+    style: {color:'#DC143C',
+	weight:4}
+}).bindPopup('Dia 1').addTo(mymap).openPopup();
+
+L.geoJson(dia2, {
+    style: {color:'#32CD32',
+	weight:4}
+}).bindPopup('Dia 2').addTo(mymap);
+
+L.geoJson(dia3, {
+    style: {color:'#20B2AA',
+	weight:4}
+}).bindPopup('Dia 3').addTo(mymap);
+
+L.geoJson(dia4, {
+    style: {color:'#0000FF',
+	weight:4}
+}).bindPopup('Dia 4').addTo(mymap);
+
+L.geoJson(dia5, {
+    style: {color:'#8A2BE2',
+	weight:4}
+}).bindPopup('Dia 5').addTo(mymap);
+
+L.geoJson(dia6, {
+    style: {color:'#2F4F4F',
+	weight:4}
+}).bindPopup('Dia 6').addTo(mymap);
+
+L.geoJson(dia7, {
+    style: {color:'#F4A460',
+	weight:4}
+}).bindPopup('Dia 7').addTo(mymap);
+
+L.geoJson(dia8, {
+    style: {color:'#6B8E23',
+	weight:4}
+}).bindPopup('Dia 8').addTo(mymap);
+
+
+
+</script>
+
+
+
+
+
+
+</html>
